@@ -46,6 +46,7 @@ The dataset consists of 14 columns, each column representing an attribute of sal
   For this project, we performed data analysis using Tableau, utilizing visualization technique. Here's what I did:
 
   1.Data Loading: We loaded the dataset using Tableau's data connector from the source.
+  
   2.Data type : In the data source tab, manually verify that Tableau has correctly assigned data types to each column.
 
 **Creating Dashboard:**
