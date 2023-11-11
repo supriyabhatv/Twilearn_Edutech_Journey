@@ -61,6 +61,47 @@ The dataset consists of 14 columns, each column representing an attribute of sal
  Sales distribution among different items:
  - Visualization type: Pie chart
  - Purpose: Analyze sales distribution of different items
+
+ Trend analysis by Sales Channel:
+ - Visualization type: Pie chart
+ - Purpose: Compare sales trend across sales channels
+
+ Monthly and Yearly Unit Sales:
+ - Visualization type: Column chart
+ - Purpose: Enables to understand unit sales over month and year
+
+ Revenue distributions among different regions:
+ - Visualization type: Horizontal bar chart
+ - Purpose: Compare revenue region wise
+
+ MoM and YoY sales growth rates:
+ - Visualization type: Line chart
+ - Purpose: Analyze MoM and YoY sales growth rate
+
+**Insights:**
+
+Here are the key insights from our Sales Data Analysis:
+
+1.The best-selling product analysis identifies Cosmetics as the top performer, 
+  showcasing its strong market demand and profitability.
+
+2.The analysis of sales channels highlights the effectiveness of online platforms, 
+  suggesting the need for increased investment in online marketing and e-commerce strategies.
+
+3.Monthly sales trend analysis reveals that peak sales occurring during February and November months, 
+  suggesting a strong seasonal pattern.
+
+4.The yearly sales trend indicates a concerning decline in revenue over the last five years,warranting a comprehensive
+  review of market strategies and operational efficiency.
+
+5.The year-month sales trend illustrates fluctuating patterns, with notable peaks in specific months.
+
+6.The distribution of revenue among different regions showcases a clear disparity, 
+  with Region Sub-Saharan Africa driving the majority of sales.
+
+7.The distribution of profit among the top 10 countries reveals significant variations, 
+  with Country Djibouti leading in profit generation.
+ 
  
 
   
