@@ -6,7 +6,7 @@ An organization which provides a platform for people to up-skill by getting prac
 
 ## About Projects:
 ### Project One: 
-### Amazon's Sales Data Analysis [Dashboard] [
+### Amazon's Sales Data Analysis
 
 ### Problem Statement:
 Sales management has gained importance to meet increasing competition and the
