@@ -6,7 +6,7 @@ An organization which provides a platform for people to up-skill by getting prac
 
 ## About Projects:
 ### Project One: 
-**Amazon's Sales Data Analysis** [Dashboard]
+### Amazon's Sales Data Analysis [Dashboard] [
 
 ### Problem Statement:
 Sales management has gained importance to meet increasing competition and the
@@ -102,6 +102,9 @@ Here are the key insights from our Sales Data Analysis:
 
 7.The distribution of profit among the top 10 countries reveals significant variations, 
   with Country Djibouti leading in profit generation.
+
+
+  ### Project Two:
  
  
 
