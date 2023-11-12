@@ -41,7 +41,7 @@ The dataset consists of 14 columns, each column representing an attribute of sal
 - Total cost - Calculated as product of 'units sold' and 'units cost'.It represents the total cost generated from the sale.
 - Total profit - Calculated as the difference between 'Total revenue' and 'Toatl cost'. It represents the total profit generated from the sale.
 
-**Cleaning and Preprocessing the data:**
+### Cleaning and Preprocessing the data:
 
   For this project, we performed data analysis using Tableau, utilizing visualization technique. Here's what I did:
 
@@ -49,7 +49,7 @@ The dataset consists of 14 columns, each column representing an attribute of sal
   
   2.Data type : In the data source tab, manually verify that Tableau has correctly assigned data types to each column.
 
-**Creating Dashboard:**
+### Creating Dashboard:
 
  Sales Trend Analysis:
  - Visualization type: Line chart and bar chart
