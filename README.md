@@ -112,7 +112,7 @@ Here are the key insights from our Sales Data Analysis:
 
 
   ### Project Two:
-  ### Financial Analytics
+  ### Financial Data Analysis
 
   ### Problem Statement:
   Without analyzing the competition, it is difficult for a business to survive. You are
