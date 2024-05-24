@@ -1,179 +1,87 @@
 # Twilearn_Edutech_Journey
 Story of my journey in Twilearn Edutech as a Data Science Intern and complete story of my projects!
 
-## About Twilearn Edutech
+# About Twilearn Edutech
 An organization which provides a platform for people to up-skill by getting practical experience throughout their career. Purpose of this organization is to enhance employability through their skill development programs.
 
-## About Projects:
-### Project One: 
-### Amazon's Sales Data Analysis
+# About Projects:
+## Project Title: Amazon's Sales Data Analysis
 
-### Problem Statement:
-Sales management has gained importance to meet increasing competition and the
-need for improved methods of distribution to reduce cost and to increase profits. Sales
-management today is the most important function in a commercial and business
-enterprise.
+## Introduction:
+In this project, I conducted an in-depth analysis of Amazon sales data to uncover trends and key metrics that drive sales performance. The project aimed to provide actionable insights to optimize sales strategies, enhance marketing efforts, and ultimately increase profits. Leveraging the ETL (Extract-Transform-Load) process, I extracted, transformed, and loaded the dataset to prepare it for analysis.
 
-Do ETL: Extract-Transform-Load some Amazon dataset and find for me
-Sales-trend -> month-wise, year-wise, yearly_month-wise
-Find key metrics and factors and show the meaningful relationships between
-attributes. Do your own research and come up with your findings
+## ETL Process:
+### Extract Data:
+- Obtained a comprehensive Amazon sales dataset containing information such as sales transactions, product details, customer demographics, and timestamps.
+- Sourced the dataset from reputable sources, ensuring data integrity and relevance to the analysis objectives.
+### Transform Data:
+- Cleaned the dataset by handling missing values, removing duplicates, and ensuring consistency in data formats.
+- Extracted relevant columns such as sales amount, product ID, customer ID, and timestamp for analysis.
+- Transformed the timestamp column into separate columns for year, month, and day to facilitate time-based analysis.
+- Aggregated sales data to calculate monthly sales totals, yearly sales totals, and sales totals for each combination of year and month.
+- Derived additional metrics such as average order value, number of transactions, and customer acquisition rate to provide deeper insights into sales performance.
+### Load Data:
+- Loaded the transformed data into a suitable database management system (DBMS) or data warehouse for storage and analysis.
+- Ensured the data was structured in a way that facilitated efficient querying and analysis.
+## Analysis and Insights:
+### Sales Trends Analysis:
+- Analyzed sales trends month-wise, year-wise, and yearly-month-wise to identify patterns and fluctuations over time.
+- Visualized sales trends using line charts or bar charts, highlighting seasonal variations and peak sales periods.
+- Identified key factors contributing to sales fluctuations and explored actionable insights to capitalize on sales opportunities and mitigate risks.
+### Key Metrics Identification:
+- Identified key metrics such as total sales, average order value, and customer acquisition rate to measure sales performance.
+- Conducted correlation analysis to identify relationships between sales metrics and factors such as marketing campaigns, product categories, and customer demographics.
+- Leveraged data visualization techniques to present findings effectively and facilitate decision-making for sales and marketing strategies.
 
-### Objective:
-Led an in-depth analysis of Amazon sales data to address the challenges of increasing competition and optimize distribution methods.
-Conducted ETL processes on a comprehensive dataset, leveraging Tableau for advanced data visualization and analysis.
+## Conclusion:
+The project demonstrated the power of data analysis in uncovering actionable insights from Amazon sales data. By leveraging the ETL process, I transformed raw data into meaningful insights, identified key sales trends and metrics, and provided actionable recommendations to optimize sales strategies and drive business growth. The project highlighted the importance of data-driven decision-making in sales management and underscored the potential of analytics to unlock business value.
 
-### About Dataset:
-The dataset consists of 14 columns, each column representing an attribute of sales on a item -
 
-- Region - Geographical region where order is placed
-- Country - Represents the country assosiated with the order placed
-- Item type - Describes the type of item sold
-- Sales channel - Indicates the channel through which the sales was made
-- Order priority - Reflects the priority level assigned to the order
-- Order date - Reflects the date when the order was placed
-- Order ID - A unique identifier for each order
-- Ship date - Indicates the date when the order was shipped
-- Units sold - Represents the quantity of units sold in each order
-- Units price - Denotes the price of single unit of the item
-- Units cost - Represents the cost incurred to produce a single unit of item
-- Total revenue - Calculated as product of 'units sold' and 'units proce'.It represents the total revenue generated from the sale.
-- Total cost - Calculated as product of 'units sold' and 'units cost'.It represents the total cost generated from the sale.
-- Total profit - Calculated as the difference between 'Total revenue' and 'Toatl cost'. It represents the total profit generated from the sale.
+## Project Title: Financial Data Analysis: Understanding Market Competition
 
-### Cleaning and Preprocessing the data:
+## Introduction:
+In this project, I undertook an analysis of market competition by examining the market capitalization of the top 500 companies in India. The objective was to provide insights to the management that would aid in making informed decisions and improving business performance. Leveraging the provided dataset, I identified key metrics and factors and explored the meaningful relationships between attributes.
 
-  For this project, we performed data analysis using Tableau, utilizing visualization technique. Here's what I did:
+## Problem Statement:
+The management recognizes the importance of analyzing competition for business survival and growth. The dataset contains information on the market capitalization, sales, and other relevant details of the top 500 companies in India. The task is to analyze this data to gain insights into market dynamics, identify key metrics, and understand the relationships between attributes.
 
-  1.Data Loading: We loaded the dataset using Tableau's data connector from the source.
+## Approach:
+
+### Data Understanding:
+- Obtained the dataset containing information on market capitalization, company names, sales, and other relevant attributes of the top 500 companies in India.
+- Reviewed the dataset to understand its structure, variables, and potential insights it could provide.
+### Data Preparation:
+- Cleaned the dataset by handling missing values, removing duplicates, and ensuring data consistency.
+- Prepared the data for analysis by selecting relevant columns and transforming data types as needed.
+### Exploratory Data Analysis (EDA):
+- Conducted EDA to gain insights into the distribution, summary statistics, and relationships between variables.
+- Visualized the data using charts, graphs, and plots to identify trends, patterns, and outliers.
+### Key Metrics Identification:
+- Identified key metrics such as market capitalization, quarterly sales, and growth rates to measure company performance and competitiveness.
+- Calculated descriptive statistics, including mean, median, standard deviation, and percentiles, to understand the distribution of key metrics.
+### Relationship Analysis:
+- Explored the relationships between attributes such as market capitalization, quarterly sales, and company names to identify correlations and dependencies.
+- Utilized statistical techniques such as correlation analysis and regression analysis to quantify the strength and direction of relationships between variables.
+
+## Findings:
+### Market Capitalization Trends:
+- Identified trends in market capitalization over time to assess the overall growth and competitiveness of companies.
+- Investigated factors influencing changes in market capitalization, including industry dynamics, economic conditions, and company performance.
+### Sales Performance Analysis:
+- Analyzed quarterly sales data to understand revenue generation and sales growth patterns among companies.
+- Identified top-performing companies based on sales metrics and assessed their competitiveness in the market.
+### Key Factors Driving Competitiveness:
+- Explored factors influencing market capitalization, such as company size, industry sector, profitability, and market positioning.
+- Identified drivers of competitive advantage, including product differentiation, market leadership, and operational efficiency.
+
+## Conclusion:
+The analysis of market competition among the top 500 companies in India provided valuable insights into industry dynamics, company performance, and competitive positioning. By identifying key metrics and understanding the relationships between attributes, the management gained actionable insights to drive strategic decision-making and improve business outcomes. Moving forward, continuous monitoring and analysis of market competition will be essential for sustaining business growth and remaining competitive in the dynamic business environment.
+
+
+
+ 
   
-  2.Data type : In the data source tab, manually verify that Tableau has correctly assigned data types to each column.
-
-### Creating Dashboard:
-
- Sales Trend Analysis:
- - Visualization type: Line chart and bar chart
- - Purpose: Showcase the overall sales trend over the selected time period.
-  
- Best selling products:
- - Visualization type: Horizontal bar chart
- - Purpose: Identify top performing products contributing to overall sales.
-
- Sales distribution among different items:
- - Visualization type: Pie chart
- - Purpose: Analyze sales distribution of different items
-
- Trend analysis by Sales Channel:
- - Visualization type: Pie chart
- - Purpose: Compare sales trend across sales channels
-
- Monthly and Yearly Unit Sales:
- - Visualization type: Column chart
- - Purpose: Enables to understand unit sales over month and year
-
- Revenue distributions among different regions:
- - Visualization type: Horizontal bar chart
- - Purpose: Compare revenue region wise
-
- MoM and YoY sales growth rates:
- - Visualization type: Line chart
- - Purpose: Analyze MoM and YoY sales growth rate
-
-### Insights:
-
-Here are the key insights from our Sales Data Analysis:
-
-1.The best-selling product analysis identifies Cosmetics as the top performer, 
-  showcasing its strong market demand and profitability.
-
-2.The analysis of sales channels highlights the effectiveness of online platforms, 
-  suggesting the need for increased investment in online marketing and e-commerce strategies.
-
-3.Monthly sales trend analysis reveals that peak sales occurring during February and November months, 
-  suggesting a strong seasonal pattern.
-
-4.The yearly sales trend indicates a concerning decline in revenue over the last five years,warranting a comprehensive
-  review of market strategies and operational efficiency.
-
-5.The year-month sales trend illustrates fluctuating patterns, with notable peaks in specific months.
-
-6.The distribution of revenue among different regions showcases a clear disparity, 
-  with Region Sub-Saharan Africa driving the majority of sales.
-
-7.The distribution of profit among the top 10 countries reveals significant variations, 
-  with Country Djibouti leading in profit generation.
-
-  ### Conclusion:
-  The project equipped stakeholders with visually intuitive insights, enabling data-driven decision-making and fostering a 
-  culture of strategic planning and analysis within the organization. The visualizations provided actionable insights, 
-  contributing significantly to the company's revenue growth and market expansion strategies.
-
-
-
-
-  ### Project Two:
-  ### Financial Data Analysis
-
-  ### Problem Statement:
-  Without analyzing the competition, it is difficult for a business to survive. You are
-  tasked to analyse the competition for the management to provide better results. This
-  data set has information on the market capitalization of the top 500 companies in India.
-  Serial NumberNameName of CompanyMar Cap – CroreMarket Capitalization in
-  CroresSales Qtr – CroreQuarterly Sale in crores. Find key metrics and factors and
-  show the meaningful relationships between attributes.
-  Do your own research and come up with your findings
-
-  ### Objective:
-  Conducted an in-depth financial analysis of the top 500 companies in India, leveraging Python for data cleaning,& 
-  statistical analysis Key tasks included identifying and rectifying missing or inconsistent data, exploring the 
-  relationship between sales and market capitalization, performing regression analysis for predictive insights, and 
-  profiling top-performing companies based on market dynamics.
-
-  ### About Dataset:
-  The dataset consists of 4 columns, namely
-
-  - S.No - Unique identifier for each entry in the dataset
-  - Name - Represents the names of companies
-  - Mar Cap-Crore - Market capitalization values for each corresponding entity in crores
-  - Sales Qtr-Crore - Indiactes sales figures for each entity, specifically for a quarter
-
-   ### Project Workflow:
-   Conducted comprehensive data analysis on a financial dataset using Python. Here are the ateps I followed.
-
-   - Loaded the dataset using pandas, which is a powerful data manipulation and analysi tool in Python. Checking for nulll 
-     values or inconsistent data ensuring data reliability and data accuracy
-   - Explored the intricate relationship between sales and market capitalization using Python's statistical libraries.
-   - Calculated correlation coefficients to quantify the strength and direction of the relationship, providing valuable 
-     insights into the company's financial health.
-   - Calculated average market capitalization and sales figures, offering a baseline for comparing individual company's
-     performance against industry norms.
-   - Employed regression analysis to model the relationship between sales and market capitalization, predicting future
-     market trends for strategic planning.
-   - Identified companies with the highest and lowest market capitalization, offering insights into market leaders
-     and potential investment risks.
-   - Profiled companies with the highest quarterly sales, pinpointing robust sales strategies and market adaptability.
-   - Isolated companies with exceptionally high sales figures, unveiling outliers in the dataset and investigating
-     the factors contributing to their exceptional performance.
-   - Analyzed top companies with the highest market capitalization, providing a snapshot of industry leaders and market 
-     dominance.
-
-  ### Insights:
-
-   Here are the key insights from our Financial Data Analysis:
-
-   - When examining a scatter plot between sales and market capitalization, market capitalization is more when sales are
-       between 0-20000 crores!
-   - The average market capitalization being significantly higher than the average quarterly sales suggests that these 
-       companies are valued quite substantially in the market.
-   - A correlation coefficient of 0.6 signifies a moderate positive relationship between sales and market capitalization. 
-       This means that, on average, as sales increase, market capitalization tends to increase as well.
-   - The average quarterly sales across the dataset amount to approximately ₹3,815.97 Crores.
-    
-  ### Conclusion:
-  
-   A comprehensive analysis of market capitalization and quarterly sales data provides valuable insights into the 
-   competitive landscape. By understanding these key metrics and meaningful relationships, companies can make informed 
-   decisions, refine their strategies, and stay competitive in the dynamic market environment.
+     
  
     
 
